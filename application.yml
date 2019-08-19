@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active: uat
+
+
+---
+spring:  profiles: uat
+  application:    name: config-server-uat
+
+---
+spring:
+  profiles: prd
+  application:
+    name: config-server-prd
